@@ -13,11 +13,21 @@ const Header = () => {
       </div>
       <div className='menu-container'>
         <ul>
-         <li><a href="/about">About Us</a></li>
-         <li><a href="/team">The Team</a></li>
-         <li><a href="/projects">Projects</a></li>
-         <li><a href="/clients">For Clients</a></li>
-         <li><a href="/join">Join Us</a></li>
+          <li>
+            <a href="/about">About Us</a>
+          </li>
+          <li>
+            <a href="/team">The Team</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/clients">For Clients</a>
+          </li>
+          <li>
+            <a href="/join">Join Us</a>
+          </li>
         </ul>
       </div>    
   </div>
@@ -26,47 +36,3 @@ const Header = () => {
 
 
 export default Header
-
-
-  // <div className="nav-container">
-    // <nav className='nav'>
-    //   {/* <div className="logo-container">
-    //     <a href="/">
-    //       <img
-    //       src={DSULogo}
-    //       alt="DSU Logo"
-    //       className="nav-logo"
-    //       />
-    //     </a>
-    //   </div>        */}
-    //   <div className='menu-container'>
-    //     <ul>
-    //       <li><a href="/about">About Us</a></li>
-    //       <li><a href="/team">The Team</a></li>
-    //       <li><a href="/projects">Projects</a></li>
-    //       <li><a href="/clients">For Clients</a></li>
-    //       <li><a href="/join">Join Us</a></li>
-    //     </ul>
-    //   </div>
-    // </nav>
-    // </div>
-    //   /* <div>
-    //     <ul>
-    //       <li>
-    //         <a href="/about">About Us</a>
-    //       </li>
-    //       <li>
-    //         <a href="/team">The Team</a>
-    //       </li>
-    //       <li>
-    //         <a href="/projects">Projects</a>
-    //       </li>
-    //       <li>
-    //         <a href="/clients">For Clients</a>
-    //       </li>
-    //       <li>
-    //         <a href="/join">Join Us</a>
-    //       </li>
-    //     </ul>
-
-    //   </div> */

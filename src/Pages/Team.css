@@ -1,0 +1,24 @@
+/* Teams page CSS Selectors */
+.team-container {
+  width: 100%;
+  padding-left:1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #F3A47D;
+  font-size: 2.5rem;
+  font-weight:800;
+}
+
+.description {
+  line-height: 2ch;
+  font-size: 1.25rem;
+}
+
+.team-container p {
+  width: 90%;
+}
