@@ -1,0 +1,100 @@
+/* All the css props for header */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  width: 90%;
+  height: 100%;
+  margin: 2.5rem;
+}
+
+.menu-container {
+  float: right;
+  height: 100%;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  background-color: orange;
+}
+
+.menu-container ul {
+  display: flex;
+  margin: 0;
+}
+
+.menu-container li {
+  list-style-type: none;
+  margin: 0 1rem;
+  font-size: 1.25em;
+  font-weight:400;
+}
+
+.menu-container li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #344F99;
+}
+
+.menu-container li a:hover {
+  color: #F3A47D;
+} 
+
+.logo-container {
+  float: left;
+  background-color: red;
+}
+
+.logo-container img:hover {
+
+  transform: scale(1.05);
+}
+/* .nav-container {
+  width: 100%;
+  margin: 2rem;
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.nav-logo {
+  height: auto;
+  width: 20%;
+}
+
+.nav-logo:hover {
+  transform: scale(1.05);
+}
+
+.menu-container {
+  width:auto;
+  float: right;
+  text-align: left;
+}
+
+.menu-container ul {
+  display: flex;
+  padding: 0;
+}
+
+.menu-container li {
+  list-style-type: none;
+  margin: 0 1rem;
+  font-size: 1.25em;
+  font-weight:400;
+}
+
+.menu-container li a {
+
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #344F99;
+}
+
+.menu-container li a:hover {
+
+  color: #F3A47D;
+} */
