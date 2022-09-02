@@ -1,0 +1,30 @@
+
+.join-us-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-title {
+  color: #F3A47D;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top:2%;
+}
+
+.join-text {
+  color: black;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  font-size:18px;
+  padding:2%;
+  padding-left:0% !important;
+}
+
+.faq-container {
+  margin-bottom:2%;
+  display:block;
+  width:auto;
+  margin-left:auto;
+}
