@@ -22,3 +22,13 @@
 .team-container p {
   width: 90%;
 }
+
+/* Grid */
+
+.grid {
+width: 80%;
+display: grid;
+grid-template-columns: repeat(auto-fill, 25em);
+grid-auto-rows: auto;
+grid-gap: 1rem;
+}

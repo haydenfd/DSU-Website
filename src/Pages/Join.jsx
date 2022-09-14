@@ -32,7 +32,10 @@ const Join = () => {
 
   return (
     <div className="join-us-container">
-      <section className="recruitment-container">
+      <h1>
+        This is the join us page
+      </h1>
+      {/* <section className="recruitment-container">
       <h1 className="join-title">
         Recruitment
       </h1>
@@ -50,7 +53,7 @@ const Join = () => {
               answer={item.answer}
             />
           ))}
-      </section>
+      </section> */}
     </div>
   )
 

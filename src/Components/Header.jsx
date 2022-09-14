@@ -1,33 +1,40 @@
 import './Header.css'
 import DSULogo from '../Images/DSU-Logo.svg'
 import React from 'react'
+import {
+  Link,
+  NavLink,
+} from 'react-router-dom'
 
 const Header = () => {
   return (
 
     <div className='navbar'>
       <div className='logo-container'>
-        <a href="/">
+        <Link to="/">
           <img src={DSULogo} alt="DSU Logo" className="nav-logo" />
-        </a>
+        </Link>
       </div>
       <div className='menu-container'>
         <ul>
           <li>
-            <a href="/about">About Us</a>
+            <Link to="/team">The Team</Link>
           </li>
           <li>
-            <a href="/team">The Team</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <Link to="/clients">For Clients</Link>
           </li>
           <li>
+            <Link to="/join">Join Us</Link>
+          </li>
+          {/* <li>
             <a href="/clients">For Clients</a>
           </li>
           <li>
             <a href="/join">Join Us</a>
-          </li>
+          </li> */}
         </ul>
       </div>    
   </div>
