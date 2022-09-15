@@ -3,12 +3,11 @@ import DSULogo from '../Images/DSU-Logo.svg'
 import React from 'react'
 import {
   Link,
-  NavLink,
 } from 'react-router-dom'
 
 const Header = () => {
-  return (
 
+  return (
     <div className='navbar'>
       <div className='logo-container'>
         <Link to="/">
@@ -29,12 +28,6 @@ const Header = () => {
           <li>
             <Link to="/join">Join Us</Link>
           </li>
-          {/* <li>
-            <a href="/clients">For Clients</a>
-          </li>
-          <li>
-            <a href="/join">Join Us</a>
-          </li> */}
         </ul>
       </div>    
   </div>

@@ -4,17 +4,19 @@
 }
 
 .navbar {
-  width: 90%;
-  height: 100%;
-  margin: 2.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .menu-container {
-  float: right;
   height: 100%;
-  padding-top: 2rem;
-  padding-right: 3rem;
-  background-color: orange;
+  padding-top: 3.5em;
+  font-size: 1.2rem;
+  right: 0;
+  padding-right: 3em;
+
 }
 
 .menu-container ul {
@@ -41,8 +43,8 @@
 } 
 
 .logo-container {
-  float: left;
-  background-color: red;
+  padding-top: 2em;
+  padding-left: 5em;
 }
 
 .logo-container img:hover {

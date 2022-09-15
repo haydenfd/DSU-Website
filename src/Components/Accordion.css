@@ -9,7 +9,8 @@
   background-color: rgb(243,247,254);
   color: #444;
   cursor: pointer;
-  padding: 1%;
+  padding: 0;
+  padding-left: 1rem;
   display: flex;
   align-items: center;
   border: 1px solid #537ABB; 
