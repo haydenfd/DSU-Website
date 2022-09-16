@@ -1,0 +1,25 @@
+.project-card-container {
+  display: flex;
+  background-color: #e6e7ff;
+  flex-direction: column;
+  border-radius: 3em;
+  align-items: center;
+  justify-content: center;
+  max-width: 35%;
+  padding: 1em;
+  margin: 2em;
+}
+
+.project-card-container:hover {
+  transform: scale(1.02);
+}
+.project-card-title {
+  font-size: 1.5em;
+}
+
+
+.project-card-image {
+  height: 80%;
+  width: 80%;
+  border-radius: 2em;
+}
