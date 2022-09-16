@@ -32,14 +32,12 @@ const Join = () => {
 
   return (
     <div className="join-us-container">
-      <section className="recruitment-container">
       <h1 className="join-title">
         Recruitment
       </h1>
       <p className="join-text">
         We have recently concluded the Spring 2022 cycle of recruitment. Our next cycle begins in Fall 2022. If you're here for information about Fall 2022 applications, check back in a couple days for more updates!
         </p>
-      </section>
       <section className="faq-container">
       <h1 className="join-title">
         FAQs

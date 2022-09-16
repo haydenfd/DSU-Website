@@ -6,6 +6,7 @@ import Music from './Images/music.png';
 import Baseball from './Images/baseball.png';
 import Age from './Images/movie.png';
 
+
 const projects = [
 
     {
