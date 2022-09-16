@@ -31,16 +31,16 @@ const Footer = () => {
           <h3><sup>©</sup> Copyright 2022 Data Science Union<br/> all rights reserved  </h3>
           </div>
           <div className='flex-child-sub flex-subsubcontainer'>
-            <a href = 'https://www.facebook.com/DSUatUCLA/' target='_blank' rel ='noreferrer'>
+            <a href = 'https://www.facebook.com/DSUatUCLA/' target='_blank' rel ='noreferrer' className="logo-hover">
             <img src={Facebook} alt=''/>
             </a>
-            <a href = 'https://www.instagram.com/p/CPeLC_0sdyM/' target='_blank' rel ='noreferrer'>
+            <a href = 'https://www.instagram.com/p/CPeLC_0sdyM/' target='_blank' rel ='noreferrer' className="logo-hover">
             <img src={Instagram} alt=''/>
             </a>            
-            <a href = 'https://github.com/the-data-science-union' target='_blank' rel ='noreferrer'>
+            <a href = 'https://github.com/the-data-science-union' target='_blank' rel ='noreferrer' className="logo-hover">
             <img src={Github} alt=''/>
             </a>
-            <a href = 'https://www.linkedin.com/company/the-data-science-union-at-ucla/' target='_blank' rel ='noreferrer'>
+            <a href = 'https://www.linkedin.com/company/the-data-science-union-at-ucla/' target='_blank' rel ='noreferrer' className="logo-hover">
             <img src={Linkedin} alt=''/>
             </a>            
           </div>

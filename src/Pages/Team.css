@@ -1,7 +1,6 @@
 /* Teams page CSS Selectors */
 .team-container {
   width: 100%;
-  padding-left:1rem;
   display: flex;
   align-items: center;
   flex-direction: column;

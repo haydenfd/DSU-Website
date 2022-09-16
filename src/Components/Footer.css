@@ -77,3 +77,8 @@
   font-weight: 400;
   padding-left: 2em;
 }
+
+.logo-hover:hover {
+
+  transform: scale(1.2);
+}

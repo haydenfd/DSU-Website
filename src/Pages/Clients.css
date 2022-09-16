@@ -1,0 +1,45 @@
+.clients-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.working-with-dsu-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.working-with-dsu-desc {
+  width: 50%;
+  background-color: #F1F6FF;
+  border-radius: 1em;
+  padding: 2em;
+  font-size: 1.25em;
+  color: #2E488E;
+  text-align: center;
+  line-height: 2ch;
+  margin-bottom: 2em;
+}
+
+.quote-container {
+  color: #2E488E;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5ch;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+
+.title {
+  font-weight: bold;
+  color: #F3A47D;
+}
