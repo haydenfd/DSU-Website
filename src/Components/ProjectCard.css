@@ -1,6 +1,6 @@
 .project-card-container {
   display: flex;
-  background-color: #e6e7ff;
+  background-color: red;
   flex-direction: column;
   border-radius: 3em;
   align-items: center;
@@ -15,6 +15,7 @@
 }
 .project-card-title {
   font-size: 1.5em;
+  text-align: center;
 }
 
 

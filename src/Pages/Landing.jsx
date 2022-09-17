@@ -2,6 +2,8 @@ import React from 'react'
 import './Landing.css'
 import Logos from '../Images/logos.png'
 import Stats from '../Images/stats.png'
+import About from '../Images/who-we-are.png'
+
 const Landing = () => {
   return (
     <div className='landing-container'>
@@ -9,10 +11,7 @@ const Landing = () => {
       <h2>UCLA's Premier Data Science Organization</h2> 
 
       <div className='who-we-are-container'>
-        <h1>Who We Are</h1>
-        <p>
-          The Data Science Union is a student organization founded in March of 2019. Our goal is to cultivate a thriving community of data science professionals at UCLA. The three components of our club - our self-designed curriculum, real-world projects, and professional development opportunities - prepare members for careers in data science. 
-        </p>
+        <img src = {About} alt = '' className='about-img' />
       </div>
 
       <div className='stats-container'>
@@ -33,7 +32,7 @@ const Landing = () => {
         <h1>Where We Work</h1>
         <div className='companies-container'>
 
-          <img src={Logos} alt='' style={{ width: '80vw', margin: '10vw' }} />
+          <img src={Logos} alt='' style={{ width: '80vw', margin: '5vw' }} />
         </div>
       </div>
     </div>
