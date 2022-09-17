@@ -1,5 +1,5 @@
 import Header from './Components/Header';
-import Team from './Pages/Team';
+// import Team from './Pages/Team';
 import Join from './Pages/Join';
 import Landing from './Pages/Landing';
 import Projects from './Pages/Projects';
@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Header />
           <Routes>
-            <Route exact path="/team" element={<Team />} />
+            {/* <Route exact path="/team" element={<Team />} /> */}
             <Route exact path="/" element={<Landing />} /> 
             <Route exact path="/join" element={<Join />} />
             <Route exact path="/projects" element={<Projects />} />

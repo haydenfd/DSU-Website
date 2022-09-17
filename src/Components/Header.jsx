@@ -16,9 +16,9 @@ const Header = () => {
       </div>
       <div className='menu-container'>
         <ul>
-          <li>
+          {/* <li>
             <Link to="/team">The Team</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/projects">Projects</Link>
           </li>

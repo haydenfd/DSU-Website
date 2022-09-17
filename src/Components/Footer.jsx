@@ -11,9 +11,9 @@ const Footer = () => {
     <div className="footer-container">
       <div className='flex-child'>
         <ul>
-          <li>
+          {/* <li>
             <Link to="/team">The Team</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/projects">Projects</Link>
           </li>
