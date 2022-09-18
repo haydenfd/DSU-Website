@@ -1,6 +1,6 @@
 import React from 'react'
 import './Clients.css'
-
+import WorkingWithUs from '../Images/working-with-us.png'
 const Clients = () => {
   return (
     <div className='clients-container'>
@@ -22,7 +22,7 @@ const Clients = () => {
          <h1 className='title'>
           Process
         </h1>
-        <ol>
+        <ul>
           <li>
             project team receives data and client's goals
           </li>
@@ -38,7 +38,7 @@ const Clients = () => {
           <li>
             project team presents its final analysis and provides helpful insights to better the clients's services
           </li>          
-        </ol>
+        </ul>
       </div>
       <div className='get-in-touch-container'>
 

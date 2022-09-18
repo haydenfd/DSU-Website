@@ -2,10 +2,5 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: red;
-}
 
-.flex-child {
-  width: 50%;
-  flex: 1;
 }
