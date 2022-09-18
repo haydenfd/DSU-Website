@@ -12,7 +12,7 @@ const Landing = () => {
 
       <div className='who-we-are-container'>
         <img src = {About} alt = '' className='about-img' />
-      </div>
+      </div> 
 
       <div className='stats-container'>
           <img src={Stats} alt='' className='stats-img' />  
