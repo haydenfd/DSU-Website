@@ -1,6 +1,43 @@
 .projects-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.row {
+  display: flex;
+  margin: 1em 1em;
+  gap: 1em;
+}
+
+.column {
+  padding: 1rem 0;
+  flex: 1;
+  color: #344F99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* cursor: pointer; */
+}
+
+@media only screen and (max-width: 768px) {
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex-basis: 100%;
+    cursor: pointer;
+  }
+}
+
+
+.projects-title {
+  color: #F3A47D;
+}
+
+.title-container {
+  text-align: center;
+  margin-top: 100px;
 }

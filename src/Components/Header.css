@@ -1,9 +1,11 @@
-/* All the css props for header */
-* {
+ * {
   font-family: 'Montserrat', sans-serif;
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
 
-.navbar {
+ .navbar {
   width: 100%;
   display: flex;
   flex-direction: row;

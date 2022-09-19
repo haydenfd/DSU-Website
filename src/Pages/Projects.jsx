@@ -7,16 +7,43 @@ import Grid from '@mui/material/Grid';
 
 const Projects = () => {
   return (
+    <div className="title-container">
+      <h1 className="projects-title">Projects</h1>
     <div className='projects-container'>
-      <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 2 }}>
-
-      {projects.map((project) => (
-        <Grid item md={8}>
-        <ProjectCard className='flex-child' title={project.title} image={project.image} />
-        </Grid>
-      ))}
-      </Grid>
-    </div>
+      <div className='row'>
+        <div className='column' >
+            <ProjectCard title={projects[0].title} image={projects[0].image}  />
+        </div>
+        <div className='column' >
+          <ProjectCard title={projects[1].title} image={projects[1].image} url={projects[1].url} />
+        </div>        
+      </div>
+      <div className='row'>
+        <div className='column'>
+          <ProjectCard title={projects[2].title} image={projects[2].image} url={projects[2].url}/>
+        </div>
+        <div className='column'>
+          <ProjectCard title={projects[3].title} image={projects[3].image} url={projects[3].url}/>
+        </div>        
+      </div>
+      <div className='row'>
+        <div className='column'>
+          <ProjectCard title={projects[4].title} image={projects[4].image} url={projects[4].url}/>
+        </div>
+        <div className='column'>
+          <ProjectCard title={projects[5].title} image={projects[5].image} url={projects[5].url}/>
+        </div>        
+      </div>
+      <div className='row'>
+        <div className='column'>
+          <ProjectCard title={projects[6].title} image={projects[6].image} url={projects[6].url}/>
+        </div>
+        <div className='column'>
+          <ProjectCard title={projects[7].title} image={projects[7].image} url={projects[7].url}/>
+        </div>        
+      </div>      
+      </div>
+      </div>
   )
 }
 
