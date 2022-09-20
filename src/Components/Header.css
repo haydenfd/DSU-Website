@@ -54,3 +54,39 @@
   transform: scale(1.05);
 }
 
+.navbar{
+  width: 95vw;
+  margin: 2em;
+  padding-left: 2em;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex: 1;
+  width: 50%;
+}
+
+.left img:hover {
+  transform: scale(1.15);
+}
+
+.right {
+  flex: 1;
+  width: 50%;
+}
+.right ul{
+  font-size: 16px;
+  width: 100%;
+}
+
+.right  li a {
+  text-decoration: none;
+  color: #344F99;
+}
+
+.right li a:hover {
+  color: #F3A47D;
+  transform: scale(1.15);
+}

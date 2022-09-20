@@ -17,6 +17,7 @@
   font-weight: bold;
   margin-top:2%;
   margin-right: 1%;
+  margin-bottom: 1em;
 }
 
 .join-text {
@@ -35,4 +36,26 @@
   flex-direction: column;
   width:auto;
   margin-left:auto;
+}
+
+.links {
+  margin-top:16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  gap: 2em;
+  font-size: 16px;
+
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  flex: 1;
+  list-style-type: none;
+ text-decoration: none;
+ margin-top: 1rem;
+
 }

@@ -9,11 +9,41 @@ import Linkedin from '../Images/linkedin-logo.svg'
 const Footer = () => {
   return (
     <div className="footer-container">
-      <div className='flex-child'>
+      <div className="footer-child-1">
         <ul>
-          {/* <li>
+          {/* <li className='footer-links-column'>
+           <Link to="/team">The Team</Link>
+          </li>  */}
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/clients">For Clients</Link>
+          </li>
+          <li>
+            <Link to="/join">Join Us</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="footer-child-2">
+            <a href = 'https://www.facebook.com/DSUatUCLA/' target='_blank' rel ='noreferrer' className="logo-hover">
+            <img src={Facebook} alt=''/>
+            </a>
+            <a href = 'https://www.instagram.com/p/CPeLC_0sdyM/' target='_blank' rel ='noreferrer' className="logo-hover">
+            <img src={Instagram} alt=''/>
+            </a>            
+            <a href = 'https://github.com/the-data-science-union' target='_blank' rel ='noreferrer' className="logo-hover">
+            <img src={Github} alt=''/>
+            </a>
+            <a href = 'https://www.linkedin.com/company/the-data-science-union-at-ucla/' target='_blank' rel ='noreferrer' className="logo-hover">
+            <img src={Linkedin} alt=''/>
+            </a>            
+      </div>      
+      {/* <div className='flex-child'>
+        <ul>
+          <li>
             <Link to="/team">The Team</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/projects">Projects</Link>
           </li>
@@ -45,7 +75,7 @@ const Footer = () => {
             </a>            
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

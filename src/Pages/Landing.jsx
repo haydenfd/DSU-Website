@@ -17,7 +17,7 @@ const Landing = () => {
       <div className='stats-container'>
           <img src={Stats} alt='' className='stats-img' />  
       </div>
-      <div className='for-clients-container'>
+      {/* <div className='for-clients-container'>
         <h1 className='for-clients-title'>
           For Clients
         </h1>
@@ -27,7 +27,7 @@ const Landing = () => {
         <button className='for-clients-button'>
           Want to partner with us?
         </button>
-      </div>
+      </div> */}
       <div className='where-we-work-container'>
         <h1>Where We Work</h1>
         <div className='companies-container'>

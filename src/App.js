@@ -17,17 +17,17 @@ function App() {
 
   return (
     <div>
-      {/* <Router>
+      <Router>
         <Header />
           <Routes>
-            <Route exact path="/team" element={<Team />} />
+            {/* <Route exact path="/team" element={<Team />} /> */}
             <Route exact path="/" element={<Landing />} /> 
             <Route exact path="/join" element={<Join />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/clients" element={<Clients />} />
           </Routes>
         <Footer />
-      </Router>       */}
+      </Router>      
     </div>
 
   );

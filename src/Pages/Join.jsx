@@ -1,7 +1,7 @@
 import React from 'react'
 import './Join.css'
 import Accordion from '../Components/Accordion';
-
+import timeline from '../Images/timeline.jpg'
 const faqs = [
   {
     question: "What does DSU look for in their applicants?",
@@ -36,8 +36,14 @@ const Join = () => {
         Recruitment
       </h1>
       <p className="join-text">
-        We have recently concluded the Spring 2022 cycle of recruitment. Our next cycle begins in Fall 2022. If you're here for information about Fall 2022 applications, check back in a couple days for more updates!
-        </p>
+        We are currently accepting applications for Fall 2022. The orientation and application links are listed below, alongwith our timeline for this recruiting cycle. We look forward to meeting you!</p>
+        <div className='links'>
+            <a href='https://tinyurl.com/dsu-application-f22' target='_blank' rel='noreferrer' className="logo-hover">Application</a>
+            <a href='https://tinyurl.com/dsu-inperson-rsvp' target='_blank' rel='noreferrer' className="logo-hover">In-person Info Session</a> 
+            <a href='https://tinyurl.com/dsu-virtual-rsvp' target='_blank' rel='noreferrer' className="logo-hover">Virtual Info Session</a>            
+            <a href='https://tinyurl.com/dsu-joint-rsvp' target='_blank' rel='noreferrer' className="logo-hover">Joint Info Session</a>                       
+      </div>
+      <img src={timeline} alt='' style={ { width: '30vw', margin: '7vw 0'}} />
       <section className="faq-container">
       <h1 className="join-title">
         FAQs
