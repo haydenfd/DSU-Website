@@ -5,6 +5,8 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin: 3em 3em;
+  width: 100%;
 }
 
 .title {
@@ -19,15 +21,25 @@
 }
 
 .team-container p {
-  width: 90%;
+  width: 100%;
+  margin-bottom: 5em;
 }
 
 /* Grid */
 
 .grid {
-width: 80%;
+width: 100%;
 display: grid;
 grid-template-columns: repeat(auto-fill, 25em);
 grid-auto-rows: auto;
 grid-gap: 1rem;
+margin: 2em 1em;
+}
+
+.grid-container {
+  display: flex;
+  background-color: red;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
 }

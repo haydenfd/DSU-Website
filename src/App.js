@@ -1,5 +1,5 @@
 import Header from './Components/Header';
-// import Team from './Pages/Team';
+import Team from './Pages/Team';
 import Join from './Pages/Join';
 import Landing from './Pages/Landing';
 import Projects from './Pages/Projects';

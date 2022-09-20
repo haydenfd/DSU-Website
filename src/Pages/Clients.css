@@ -7,14 +7,18 @@
 }
 
 .working-with-dsu-container {
+  margin: 3em 5em;
   width: 100%;
+  background-color: #2E488E;
+  padding: 2em;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 2vw;
+  background-image: url("../Images/working-with-us-bg.png"), linear-gradient(white,#2e488e);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
 }
 
 .working-with-dsu-desc {
@@ -33,17 +37,92 @@
   color: #2E488E;
   font-weight: 600;
   text-align: center;
-  line-height: 1.5ch;
-  font-size: 2em;
-  margin-bottom: 2em;
+  line-height: 3ch;
+  font-size: 2.5em;
+  margin: 3em 0;
 }
 
 .process-container {
+ margin: 3em 5em;
+ width: 100%;
+ background-color: #2E488E;
+ padding: 2em;
+}
+
+.process-title-container {
   text-align: center;
+  font-size: 36px;
+
   
 }
 
 .title {
   font-weight: bold;
   color: #F3A47D;
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+
+/* .number-1-point{
+list-style: url("../Images/list-number-1.png");
+
+} */
+
+.li-1 {
+	margin: 0;
+  margin-left: 10vw;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 56px;
+  background-image: url("../Images/list-number-1.png");
+}
+
+.li-2 {
+	margin: 0;
+ margin-left: 10vw;	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 56px;
+  background-image: url("../Images/list-number-2.png");
+}
+
+.li-3 {
+	margin: 0;
+ margin-left: 10vw;	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 56px;
+  background-image: url("../Images/list-number-3.png");
+}
+
+.li-4 {
+	margin: 0;
+ margin-left: 10vw;	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 56px;
+  background-image: url("../Images/list-number-4.png");
+}
+
+.li-5 {  
+	margin: 0;
+ margin-left: 10vw;	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 56px;
+  background-image: url("../Images/list-number-5.png");
+}
+
+li {
+  color: #F3A47D;
+  font-size: 24px;
+  width: 80%;
+  line-height: 2ch;
 }

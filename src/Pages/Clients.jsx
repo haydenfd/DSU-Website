@@ -1,6 +1,6 @@
 import React from 'react'
 import './Clients.css'
-import WorkingWithUs from '../Images/working-with-us.png'
+
 const Clients = () => {
   return (
     <div className='clients-container'>
@@ -19,26 +19,28 @@ const Clients = () => {
         <p>We have the <p style={{color: '#f3a47d', display: 'inline'}}>insights</p>.</p>
       </div>
       <div className='process-container'>
-         <h1 className='title'>
+        <div className='process-title-container'>
+        <h1 className='title'>
           Process
         </h1>
-        <ul>
-          <li>
-            project team receives data and client's goals
+        </div>
+        <ol>
+          <li className="li-1">
+            The project team receives data and client's goals.
           </li>
-          <li>
-            project team analyzes and models preliminary data
+          <li className="li-2">
+            The project team analyzes and models preliminary data.
           </li>          
-          <li>
-            project team presents initial findings, and the clients give feedback and additional goals and/or data
+          <li className="li-3">
+            The project team presents initial findings, and the clients give feedback and additional goals and/or data.
           </li>
-          <li>
-            project team continues to refine their analysis and prepares their final thoughts
+          <li className="li-4">
+            The project team continues to refine their analysis and prepares their final thoughts.
           </li>
-          <li>
-            project team presents its final analysis and provides helpful insights to better the clients's services
+          <li className="li-5">
+            The project team presents its final analysis and provides helpful insights to better the clients's services.
           </li>          
-        </ul>
+        </ol>
       </div>
       <div className='get-in-touch-container'>
 
