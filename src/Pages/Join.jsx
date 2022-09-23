@@ -1,7 +1,6 @@
 import React from 'react'
 import './Join.css'
 import Accordion from '../Components/Accordion';
-import timeline from '../Images/timeline.jpg'
 const faqs = [
   {
     question: "What does DSU look for in their applicants?",
@@ -97,15 +96,6 @@ const Join = () => {
         </tr>  
           
       </table>
-        {/* <ul>
-          <li>Application Opens [9/20 at 8 AM]</li>
-          <li>Virtual Info Session [9/20 at 8 AM]</li>
-          <li>In-person Info Session [9/20 at 8 AM]</li>
-          <li>Application Closes[9/20 at 8 AM]</li>
-          <li>Coffee Chats[9/20 at 8 AM]</li>
-          <li>Interviews[9/20 at 8 AM]</li>
-
-        </ul> */}
       </div>
       <section className="faq-container">
       <h1 className="join-title">
