@@ -59,3 +59,33 @@
  margin-top: 1rem;
 
 }
+
+.recruitment-timeline {
+  margin-top: 3em;
+  width: 70vw;
+  float:left;
+
+}
+
+.recruitment-table {
+  width: 100%;
+}
+.recruitment-timeline ul {
+  list-style-type: none;
+}
+
+table {
+  border: 3px solid #F3A47D;
+  height: 300px;
+  font-size: larger;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+
+}
+

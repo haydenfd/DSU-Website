@@ -43,7 +43,70 @@ const Join = () => {
             <a href='https://tinyurl.com/dsu-virtual-rsvp' target='_blank' rel='noreferrer' className="logo-hover">Virtual Info Session</a>            
             <a href='https://tinyurl.com/dsu-joint-rsvp' target='_blank' rel='noreferrer' className="logo-hover">Joint Info Session</a>                       
       </div>
-      <img src={timeline} alt='' style={ { width: '30vw', margin: '7vw 0'}} />
+      {/* <img src={timeline} alt='' style={ { width: '30vw', margin: '7vw 0'}} /> */}
+      <div className='recruitment-timeline'>
+      <table className='recruitment-table'>
+        <tr>
+          <th>Event</th>
+          <th>Time</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>Application opens</td>
+          <td>9/20 @ 8 AM</td>
+          <td><a href='https://tinyurl.com/dsu-application-f22' target='_blank' rel='noreferrer'>Apply here!</a></td>
+        </tr>
+        <tr>
+          <td>Virtual Info Session</td>
+          <td>9/27 @ 7 PM</td>
+            <td>
+              <a href='https://tinyurl.com/dsu-virtual-rsvp' target='_blank' rel='noreferrer'>
+              RSVP here!
+              </a>
+            </td>
+        </tr>
+        <tr>
+          <td>In-person Info Session</td>
+          <td>9/28 @ 7 PM</td>
+            <td>
+              <a href='https://tinyurl.com/dsu-inperson-rsvp' target='_blank' rel='noreferrer'>
+              RSVP here!
+              </a>              
+            </td>
+          </tr>
+        <tr>
+          <td>Application closes</td>
+          <td>9/29 @ 12 PM</td>
+            <td>
+              <a href='https://tinyurl.com/dsu-application-f22' target='_blank' rel='noreferrer'>Apply here!</a>     
+            </td>
+          </tr>
+          <tr>
+          <td>Coffee Chats</td>
+          <td>25</td>
+            <td>
+              Invite only
+            </td>
+          </tr>
+          <tr>
+          <td>Interviews</td>
+          <td>25</td>
+            <td>
+              Invite only       
+            </td>
+        </tr>  
+          
+      </table>
+        {/* <ul>
+          <li>Application Opens [9/20 at 8 AM]</li>
+          <li>Virtual Info Session [9/20 at 8 AM]</li>
+          <li>In-person Info Session [9/20 at 8 AM]</li>
+          <li>Application Closes[9/20 at 8 AM]</li>
+          <li>Coffee Chats[9/20 at 8 AM]</li>
+          <li>Interviews[9/20 at 8 AM]</li>
+
+        </ul> */}
+      </div>
       <section className="faq-container">
       <h1 className="join-title">
         FAQs
