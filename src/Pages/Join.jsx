@@ -28,21 +28,20 @@ const faqs = [
 ];
 
 const Join = () => { 
-
   return (
     <div className="join-us-container">
       <h1 className="join-title">
         Recruitment
       </h1>
       <p className="join-text">
-        We are currently accepting applications for Fall 2022. The orientation and application links are listed below, alongwith our timeline for this recruiting cycle. We look forward to meeting you!</p>
-        <div className='links'>
+        Our Fall 2022 Recruitment cycle has concluded, but we will be back in Spring 2022! If you are a prospective applicant, stay tuned for more updates!</p>
+       {/* <div className='links'>
             <a href='https://tinyurl.com/dsu-application-f22' target='_blank' rel='noreferrer' className="logo-hover">Application</a>
             <a href='https://tinyurl.com/dsu-inperson-rsvp' target='_blank' rel='noreferrer' className="logo-hover">In-person Info Session</a> 
             <a href='https://tinyurl.com/dsu-virtual-rsvp' target='_blank' rel='noreferrer' className="logo-hover">Virtual Info Session</a>            
             <a href='https://tinyurl.com/dsu-joint-rsvp' target='_blank' rel='noreferrer' className="logo-hover">Joint Info Session</a>                       
       </div>
-      {/* <img src={timeline} alt='' style={ { width: '30vw', margin: '7vw 0'}} /> */}
+      <img src={timeline} alt='' style={ { width: '30vw', margin: '7vw 0'}} /> 
       <div className='recruitment-timeline'>
       <table className='recruitment-table'>
         <tr>
@@ -96,7 +95,7 @@ const Join = () => {
         </tr>  
           
       </table>
-      </div>
+      </div>*/}
       <section className="faq-container">
       <h1 className="join-title">
         FAQs
