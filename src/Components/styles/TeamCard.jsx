@@ -15,7 +15,7 @@ const Name = styled.p`
   font-weight: 600;
   font-size: 1.5em;
   padding: 1em 0 0.5em 0;
-  text-align:justify;
+  text-align:center;
 `
 const Year = styled.p`
   font-weight: 400;
