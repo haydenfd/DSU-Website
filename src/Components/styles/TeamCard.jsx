@@ -4,8 +4,8 @@ const Container = styled.div`
   display:flex;
   flex-direction: column;
   flex-wrap:wrap;
-  height: 350px;
-  width: 300px;
+  height: 16vw;
+  width: 10vw;
   text-align: center;
   justify-content: center;
   align-items: center;

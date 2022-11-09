@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 const Grid = styled.div`
     display: inline-grid;
-    grid-gap: 3em;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 4em;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     height: 100%;
     width: 100%; 
     margin: auto;
@@ -28,7 +28,7 @@ const Title = styled.h1`
 `
 
 const ExecWrapper = styled.div`
-    width: 85%;
+    width: 75%;
     margin: auto;
     padding:1em;
 `
