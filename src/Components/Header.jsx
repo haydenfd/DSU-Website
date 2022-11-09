@@ -32,9 +32,9 @@ const Header = () => {
       </div>
       <div className='right'>
          <ul className='links'>
-          {/* <li>
+          <li>
             <Link to="/team">The Team</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/projects">Projects</Link>
           </li>

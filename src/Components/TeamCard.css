@@ -1,4 +1,4 @@
-.team-card-container {
+/* .team-card-container {
   width: 33%;
   height: auto;
   background-color: blue;
@@ -27,4 +27,14 @@
 }
 
 
+ */
 
+.member-image{
+  max-height: 180px;
+  width: auto;
+  border-radius: 1em;
+}
+
+.member-image:hover {
+   filter: brightness(0.4);
+}
