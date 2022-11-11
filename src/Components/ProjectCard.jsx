@@ -1,14 +1,16 @@
 import React from 'react'
-import './ProjectCard.css'
+import {
+  Title,
+  Image,
+  Container,
+} from './styles/ProjectCardStyles.jsx'
+
 const ProjectCard = ({title, image, url}) => {
   return (
-    <>
-      <div className='project-card-container' onClick={() =>  window.open(url, '_blank', 'noopener,noreferrer')}>
-        <h1 className='project-card-title'>{title}</h1>
-        <img src={image} alt="" className='project-card-image'/>
-
-      </div>
-    </>
+    <Container onClick={() =>  window.open(url, '_blank', 'noopener,noreferrer')}>
+      <Title>{title}</Title>
+      <Image src={image} alt=""/>
+    </Container>
   )
 }
 

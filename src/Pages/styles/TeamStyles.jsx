@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const Grid = styled.div`
-    display: inline-grid;
+    display: grid;
     grid-gap: 4em;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     height: 100%;

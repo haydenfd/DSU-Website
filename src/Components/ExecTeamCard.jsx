@@ -5,7 +5,7 @@ import {
   Position,
   Name,
   Year
-} from './styles/TeamCard'
+} from './styles/TeamCardStyles'
 
 const ExecTeamCard = ({name, year, img, position}) => {
   return (

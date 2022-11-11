@@ -4,7 +4,7 @@ import {
   Container,
   Name,
   Year
-} from './styles/TeamCard'
+} from './styles/TeamCardStyles'
 
 const GeneralTeamCard = ({name, year, img}) => {
   return (

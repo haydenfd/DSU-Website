@@ -9,6 +9,15 @@
   justify-content: center;
   top: 12vw;
 }
+.about-container{
+  background-image: url('../Images/who-we-are.png');
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position: center;
+  color: white;
+
+
+}
 
 .who-we-are-container 
 {

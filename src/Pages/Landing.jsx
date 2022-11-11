@@ -1,22 +1,45 @@
 import React from 'react'
 import './Landing.css'
 import Logos from '../Images/logos.png'
-import Stats from '../Images/stats.png'
-import About from '../Images/who-we-are.png'
+
+import {
+  Title, 
+  TitleWrapper,
+  SubTitle,
+  About,
+  AboutDescription,
+  EmphasizedText,
+  StatsWrapper,
+  Companies
+} from './styles/LandingStyles'
+
+import StatsCard from '../Components/StatsCard'
+import { stats } from '../Components/styles/StatsCardStyles'
 
 const Landing = () => {
   return (
-    <div className='landing-container'>
-      <h1 className='title'> The Data Science Union</h1>
-      <h2>UCLA's Premier Data Science Organization</h2> 
+    <>
+      <TitleWrapper>
+        <Title>The Data Science Union</Title>
+        <SubTitle>UCLA's Premier Data Science Organization</SubTitle>
+      </TitleWrapper>
+      <div className='about-container'>
+        <TitleWrapper>
+          <SubTitle>Who We Are</SubTitle>
+        </TitleWrapper>
+        <AboutDescription>
+          <EmphasizedText>The Data Science Union</EmphasizedText> is a student organization founded in March of 2019. Our goal is to cultivate a thriving community of data science professionals at UCLA. The three components of our club - our self-designed curriculum, real-world projects, and professional development opportunities - prepare members for careers in data science.
+        </AboutDescription>
 
-      <div className='who-we-are-container'>
-        <img src = {About} alt = '' className='about-img' />
-      </div> 
-
-      <div className='stats-container'>
-          <img src={Stats} alt='' className='stats-img' />  
       </div>
+      <StatsWrapper>
+        {stats.map((stat, i) => (
+          <StatsCard
+          number={stat.number}
+          text={stat.text}
+          />
+          ))}       
+      </StatsWrapper>
       {/* <div className='for-clients-container'>
         <h1 className='for-clients-title'>
           For Clients
@@ -28,14 +51,13 @@ const Landing = () => {
           Want to partner with us?
         </button>
       </div> */}
-      <div className='where-we-work-container'>
-        <h1>Where We Work</h1>
-        <div className='companies-container'>
-
-          <img src={Logos} alt='' style={{ width: '80vw', margin: '5vw' }} />
-        </div>
-      </div>
-    </div>
+      <TitleWrapper>
+        <SubTitle>
+          Where We've Gone
+        </SubTitle>
+        <Companies src={Logos} alt=''/>
+      </TitleWrapper>
+    </>
   )
 }
 
