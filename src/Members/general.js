@@ -191,7 +191,7 @@ export const general = [
     img: Kevin,
   },
   {
-    name: 'Langxing(Daniel) Bai',
+    name: 'Langxing Bai',
     year: '26',
     img: Langxing,
   },

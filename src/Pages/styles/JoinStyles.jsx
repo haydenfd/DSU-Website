@@ -6,12 +6,12 @@ const Title = styled.h1`
   font-weight:800;
   margin: 2.5vw 0 2vw 0;
 `
-const TitleWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`
+// const TitleWrapper = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     // align-items: center;
+//     // justify-content: center;
+// `
 
 const Description = styled.p`
     font-size:1.25em;
@@ -38,14 +38,13 @@ const FAQ = [
     answer:"No! We welcome people in difference years and from different backgrounds as long as they want to pursue a future in a data-related field.",
   },
   {
-    question:"I have some experience doing data-related projects. Can I skip the curriculum track and directly join the project teams?",
-    answer:"If you’re interested in skipping the curriculum, let us know during your interview! We’ll follow up with you to determine whether you’re a good fit for the project teams.",
+    question:"I have experience doing data-related projects. Can I skip curriculum and directly join the project teams?",
+    answer:"If you’re interested in skipping the curriculum track, let us know during your interview! We’ll follow up with you to determine whether you’re a good fit for the project teams.",
   }
 ]
 
 export {
   Title,
-  TitleWrapper,
   Description,
   FAQ,
 }

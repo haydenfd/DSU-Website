@@ -4,13 +4,14 @@ import {
   Container,
   Position,
   Name,
-  Year
+  Year,
+  Image,
 } from './styles/TeamCardStyles'
 
 const ExecTeamCard = ({name, year, img, position}) => {
   return (
     <Container>
-      <img src={img} alt='' className='member-image'/>
+      <Image src={img} alt='' />
       <Name>{name}</Name>
       <Position>{position}</Position>
       <Year>Class of '{year}</Year>

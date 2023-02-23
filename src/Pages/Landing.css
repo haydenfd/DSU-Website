@@ -110,3 +110,87 @@
   font-size: 42px;
   margin-top: 2em;
 }
+
+/* ------------ */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1em;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 3em;
+  color: #f3a47d;
+}
+
+.header-subtitle {
+  font-size: 32px;
+  color: #f3a47d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+
+}
+
+.who-img {
+  width: 100%;
+}
+
+/* .who-we-are-title {
+  color:#f3a47d;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.who-we-are-description {
+  color: white;
+  font-size: 1.25em;
+  width: 75%;
+  text-align: center;
+} */
+
+/* .emphasized-text {
+  display: inline;
+  color: #f3a47d;
+  font-weight: 700;
+} */
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.work-title {
+  color: #f3a47d;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  font-weight: 800;
+}
+
+.company-logos {
+  width: 85vw;
+}
+

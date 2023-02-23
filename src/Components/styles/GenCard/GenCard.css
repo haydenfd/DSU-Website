@@ -1,0 +1,56 @@
+:root {
+  --laptop-gen-name: 18px;
+  --laptop-gen-year: 16px;
+  --mobile-gen-name: 14px;
+  --mobile-gen-year: 11px;
+}
+
+.gen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  width: 25vw;
+  height: 25vw;
+}
+
+.gen-member-img {
+  width: 18vw;
+  border-radius: 16px;
+  height: 18vw;
+  margin-bottom: 8px;
+}
+
+.gen-member-name {
+  font-weight: 700;
+  font-size: var(--laptop-gen-name);
+}
+
+.gen-member-year{
+  font-size: var(--laptop-gen-position);
+}
+
+@media screen and (max-width:700px) {
+  .gen-container {
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .gen-member-img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .gen-member-name {
+    font-size: var(--mobile-gen-name);
+  }
+
+  .gen-member-year {
+    font-size: var(--mobile-gen-position);
+  }
+  
+}
+
+

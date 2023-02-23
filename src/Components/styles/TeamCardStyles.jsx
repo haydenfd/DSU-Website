@@ -4,16 +4,20 @@ const Container = styled.div`
   display:flex;
   flex-direction: column;
   flex-wrap:wrap;
-  height: 16vw;
-  width: 10vw;
   text-align: center;
   justify-content: center;
   align-items: center;
+  background-color: blue;
+  max-height: 300px;
+
+`
+const Image = styled.img`
+  max-height: 170px;
 `
 
 const Name = styled.p`
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 1em 0 0.5em 0;
   text-align:center;
 `
@@ -33,5 +37,6 @@ export {
   Container, 
   Name,
   Position,
-  Year
+  Year,
+  Image,
 }

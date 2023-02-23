@@ -2,7 +2,6 @@ import React from 'react'
 import './Join.css'
 import {
   Title,
-  TitleWrapper,
   Description,
   FAQ,
 } from './styles/JoinStyles'
@@ -11,9 +10,11 @@ import Accordion from '../Components/Accordion'
 const Join = () => { 
   return (
     <>
-      <TitleWrapper>
+        <div className="recruitment-wrapper">
         <Title>Recruitment</Title>
         <Description>Our recruitment cycle has concluded, but we will be back in Spring 2023! If you are a prospective applicant, stay tuned for more updates!</Description>
+        </div>
+        <div className="faq-wrapper">
         <Title>Frequently Asked Questions</Title>
         {FAQ.map((faq, i) => (
           <Accordion
@@ -21,7 +22,7 @@ const Join = () => {
             answer={faq.answer}
           />
         ))}       
-      </TitleWrapper>
+        </div>
     </>
   //   <div className="join-us-container">
   //     <h1 className="join-title">

@@ -1,0 +1,164 @@
+.navbar {
+  /* background-color: lightgrey; */
+  height: 10vw; /* check */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: sticky; */
+  top: 0;
+  z-index: 20;
+  padding: 7vw 5vw;  /* check */
+  margin-bottom: 3vw;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 80px;
+  max-width: 1500px; */
+}
+
+.nav-logo {
+  color: #f5b921;
+  align-items: center;
+  margin-left: 15px; 
+  flex:1;
+}
+
+
+.logo{
+  height: 130px;
+  width: 280px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:hover:after {
+  transform: scale(1);
+  transition: all 0.6s ease-out;
+}
+
+
+.nav-menu {
+  flex:1;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  /* margin-right: 1rem; */
+  /* background-color: green; */
+  /* height: 130px;
+  align-items: center; */
+}
+
+.nav-links {
+  color: #2e488e;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid transparent;
+  font-size: 26px;
+
+}
+
+
+.nav-item {
+  line-height: 40px;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width 0.8s ease, background-color 0.6s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: var(--gold-color);
+  transition: width 0.8s ease, background-color 0.6s ease;
+}
+
+
+.nav-item .active {
+  color: var(--gold-color);
+  border: 1px solid var(--gold-color);
+}
+
+.nav-icon {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 5vw 0;
+    height: 40vw;
+  }
+
+  .nav-logo {
+    margin-left: 25px;
+  }
+
+  .logo{
+  height: 80px;
+  width: 170px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    border-top: 5px solid white;
+    position: absolute;
+    top: 150px;
+    left: -110%;
+    opacity: 1;
+    transition: all 1.2s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .nav-menu.active {
+    background: #2e488e;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.7s ease;
+    z-index: 1;
+    gap: 1.5vw;
+    width: 100%;
+    font-size: 16px;
+  }
+  .nav-item .active {
+    color: var(--gold-color);
+    width: 100%;
+  }
+  .nav-links {
+    padding: 0.85rem;
+    width: 100%;
+    display: table;
+    color: white;
+    font-size: 18px;
+  }
+
+  .nav-icon {
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 8vw;
+    padding: 0vw 1vw;
+    right: 15vw;
+    cursor: pointer;
+  }
+
+}

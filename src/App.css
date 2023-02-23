@@ -1,0 +1,50 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gold-color: #f3a47d;
+  --blue-color: #2e488e;
+
+  --laptop-h1: 40px;
+  --mobile-h1: 28px;
+
+  --laptop-h2: 32px;
+  --mobile-h2: 23px;
+
+  --laptop-h3: 26px;
+  --mobile-h3: 19px;
+
+  --laptop-p: 20px;
+  --mobile-p: 16px;
+
+  /* Landing Page */
+  --laptop-landing-main-h1: 40px;
+  --mobile-landing-main-h1: 27px;
+
+  --laptop-landing-main-margin: 1vw;
+  --mobile-landing-main-margin: 2.5vw;
+  
+  --laptop-landing-sub-main-h3: 26px;
+  --mobile-landing-sub-main-h3: 17.5px;
+
+  /* --laptop-landing-sub-main-h3: 26px;
+  --mobile-landing-sub-main-h3: 17.5px; */
+  
+  --laptop-landing-section-title-h2: 33px;
+  --mobile-landing-section-title-h2: 22.5px;
+
+  --laptop-landing-section-title-margin-h2: 6.5vw;
+  --mobile-landing-section-title-margin-h2: 8vw;
+
+  /* Join Page */
+  --laptop-join-p: 20px;
+  --mobile-join-p: 16px; 
+
+
+  /* Clients Page */ 
+
+}

@@ -1,25 +1,45 @@
 import React from 'react'
 import './Landing.css'
 import Logos from '../Images/logos.png'
+import WhoWeAre from '../Images/who.jpg'
+// import {
+//   Title, 
+//   TitleWrapper,
+//   SubTitle,
+//   About,
+//   AboutDescription,
+//   EmphasizedText,
+//   StatsWrapper,
+//   Companies
+// } from './styles/LandingStyles'
 
-import {
-  Title, 
-  TitleWrapper,
-  SubTitle,
-  About,
-  AboutDescription,
-  EmphasizedText,
-  StatsWrapper,
-  Companies
-} from './styles/LandingStyles'
 
-import StatsCard from '../Components/StatsCard'
-import { stats } from '../Components/styles/StatsCardStyles'
+// import StatsCard from '../Components/StatsCard'
+// import { stats } from '../Components/styles/StatsCardStyles'
 
 const Landing = () => {
   return (
     <>
-      <TitleWrapper>
+      <div className="container">
+        <section className="header">
+          <h1 className='header-title'>
+            The Data Science Union
+          </h1>
+          <h2 className='header-subtitle'>
+            UCLA's Premier Data Science Organization
+          </h2>
+        </section>
+        <section className="who-we-are">
+        <img src={WhoWeAre} alt='' className = 'who-img'/>
+        </section>
+        <section className="work">
+            <h1 className="work-title">
+              Where We've Gone
+            </h1>
+            <img src={Logos} alt='' className='company-logos'/>
+        </section>
+    </div>
+      {/* <TitleWrapper>
         <Title>The Data Science Union</Title>
         <SubTitle>UCLA's Premier Data Science Organization</SubTitle>
       </TitleWrapper>
@@ -40,7 +60,7 @@ const Landing = () => {
           />
           ))}       
       </StatsWrapper>
-      {/* <div className='for-clients-container'>
+      <div className='for-clients-container'>
         <h1 className='for-clients-title'>
           For Clients
         </h1>
@@ -50,13 +70,13 @@ const Landing = () => {
         <button className='for-clients-button'>
           Want to partner with us?
         </button>
-      </div> */}
+      </div>
       <TitleWrapper>
         <SubTitle>
           Where We've Gone
         </SubTitle>
         <Companies src={Logos} alt=''/>
-      </TitleWrapper>
+      </TitleWrapper> */}
     </>
   )
 }

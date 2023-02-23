@@ -1,0 +1,11 @@
+.times-icon {
+  font-size: 65px;
+  color: #2e488e;
+  transform: scale(1.5);
+}
+
+.bars-icon {
+  font-size: 65px;
+  color: #2e488e;
+  transform: scale(0.85);
+}

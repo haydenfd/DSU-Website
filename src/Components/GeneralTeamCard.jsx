@@ -3,13 +3,14 @@ import './TeamCard.css'
 import {
   Container,
   Name,
-  Year
+  Year,
+  Image,
 } from './styles/TeamCardStyles'
 
 const GeneralTeamCard = ({name, year, img}) => {
   return (
     <Container>
-      <img src={img} alt='' className='member-image'/>
+      <Image src={img} alt='' />
       <Name>{name}</Name>
       <Year>Class of '{year}</Year>
     </Container>

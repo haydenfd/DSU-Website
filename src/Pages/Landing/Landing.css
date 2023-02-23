@@ -1,0 +1,210 @@
+:root {
+
+  --laptop-who-we-are-padding: 2vw;
+  --mobile-who-we-are-padding:5vw;
+}
+
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-title {
+  color:var(--gold-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: var(--laptop-landing-main-margin); 
+  font-size: var(--laptop-landing-main-h1);   
+}
+
+.landing-subtitle {
+  color: var(--gold-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-size: var(--laptop-landing-sub-main-h3);
+  font-weight:600;  
+  margin-bottom: 5vw;  
+}
+
+/* who-we-are */
+
+.who-we-are-container {
+  margin-top: 3vw;
+  padding: 1.75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  /* background: url('../../Images/who-we-are.png') center;
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%; 
+  background-size: contain;
+  background-repeat: no-repeat; */
+  background-color: var(--blue-color);
+}
+
+.who-we-are-container-child {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  /* background-color: gold;
+  border: 3px solid red; */
+  width: 85%;
+  padding: var(----laptop-who-we-are-padding);
+}
+
+.where-we-work {
+  width: 100%;
+  margin: var(  --laptop-landing-section-title-margin-h2) 0;
+  color: var(--gold-color);
+}
+
+.section-title {
+  font-size: var(--laptop-landing-section-title-h2);
+  color: var(--gold-color);
+  margin-bottom: 2vw;
+}
+
+.where-we-work-img {
+  /* margin-top: 2vw; */
+  width: 80vw;
+}
+
+/* stats */
+
+.stat-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3vw 3vw;
+  /* background-color: red; */
+}
+
+/* for clients */
+
+.for-clients-container {
+  margin-top: 3vw;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  background: url('../../Images/for-client-bg.png') center;
+  /* -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;  */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--blue-color);
+}
+
+.for-clients-container-child {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  /* background-color: gold;
+  border: 3px solid red; */
+  width: 80%;
+  padding: 2.5vw;
+}
+
+.for-clients-p {
+  width: 80%;
+  text-align: center;
+  font-size: var(--laptop-join-p);
+  margin-bottom: 3vw;
+  line-height: 150%;
+  color: white;
+}
+
+.partner-with-us-btn {
+  background-color: var(--gold-color);
+  border-radius: 20px;
+  padding: 1.5vw;
+  color: white;
+  border: none;
+  font-size: 18px;
+  /* font-size: calc(var(--laptop-join-p) - 5px); */
+}
+
+.partner-with-us-btn:hover {
+  transform: scale(1.15);
+  color: var(--blue-color);
+}
+
+
+.emphasized-client-text {
+  display: inline;
+  color: var(--gold-color);
+  font-weight: 600;
+
+}
+
+@media screen and (max-width: 700px) {
+
+  .landing-title {
+    font-size: var(--mobile-landing-main-h1);
+    margin-bottom: var(--mobile-landing-main-margin);
+  }
+
+  .landing-subtitle {
+    font-size: var(--mobile-landing-sub-main-h3);
+  }
+
+  .where-we-work-img{
+    width: 90vw;
+    margin-top: 7vw;
+  }
+
+  .where-we-work {
+    margin: var(--mobile-landing-section-title-margin-h2) 0;
+  }
+
+  .stat-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 6.5vw 0;
+  }
+
+  .section-title {
+      font-size: var(--mobile-landing-section-title-h2);
+  }
+
+  .for-clients-p {
+    font-size: var(--mobile-p);
+    width:100%;
+  }
+
+  .who-we-are-container-child {
+    padding: var(--mobile-who-we-are-padding);
+  }
+
+  .partner-with-us-btn {
+      padding: 3vw;
+      font-size: 12px;
+  }
+
+  .for-clients-container {
+    background: #2e488e;
+    padding: 5vw 0;
+  }
+}

@@ -1,0 +1,193 @@
+:root {
+  --laptop-tagline-font: 36px;
+  --mobile-tagline-font: 23.5px;
+
+  --laptop-tagline-letter-spacing: 1.25px;
+  --mobile-tagline-letter-spacing: 1px;
+
+  --laptop-client-margin-bottom: 5vw;
+  --mobile-client-margin-bottom: 12vw;
+
+  --laptop-list-item: 23px;
+  --mobile-list-item: 15 .5px;
+}
+
+.clients-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-with-us-container {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7vw;
+  margin-bottom: var(--laptop-client-margin-bottom); 
+  /* background: url('/Users/hayden2905/Desktop/dsu-final/DSU-Website/src/Images/working-with-dsu.jpeg') center;
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;  */
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  background-color: var(--blue-color);
+}
+
+.working-with-us-text {
+  width: 60%;
+  color: var(--blue-color);
+  background-color: #F1F6FF;
+  border-radius: 16px;
+  font-size: var(--laptop-p);
+  text-align: center;
+  padding: 3vw;
+  line-height: 135%;
+}
+
+.taglines-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--blue-color);
+  padding: 2vw;
+  gap: 12px;
+  width: 100%;
+  /* background-color: yellow; */
+  margin-bottom: var(--laptop-client-margin-bottom); 
+}
+
+.tagline {
+  font-size: var(--laptop-tagline-font);
+  display: inline;
+  letter-spacing: var(--laptop-tagline-letter-spacing);
+}
+
+.data-tag {
+  color: #89b8ef;
+  display: inline;
+}
+
+.insights-tag {
+  color: var(--gold-color);
+  display: inline;
+}
+
+.project-process-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-color);
+  width: 100%;
+  padding: 3vw;
+  margin-bottom: var(--laptop-client-margin-bottom);
+}
+
+.list-container {
+  /* background-color: green; */
+  width: 90%;
+  text-align: left;
+  padding: 1vw;
+}
+
+.list-kid {
+  margin-bottom: 1vw;
+  /* background-color: maroon; */
+  width: 100%;
+  padding: 1vw 1vw;
+  display: flex;
+}
+
+/* .list-img {
+  transform: scale(0.2);
+  background-color: yellow;
+  left: 0;
+} */
+
+.list-text {
+  font-size: var(--laptop-list-item);
+  color: var(--gold-color);
+}
+
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--blue-color);
+  width: 100%;
+  color: white;
+  padding: 3vw;
+  margin-bottom: var(--laptop-client-margin-bottom);
+}
+
+.clients-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--blue-color);
+  width: 100%;
+  color: white;
+  padding: 3vw;
+  margin-bottom: var(--laptop-client-margin-bottom);  
+}
+
+@media screen and (max-width:700px) {
+  .working-with-us-h2 {
+    margin-bottom:10vw;
+
+  }
+
+  .working-with-us-text{
+    font-size: var(--mobile-p);
+    width: 90%;
+  }
+
+  .tagline {
+    font-size: var(--mobile-tagline-font);
+    letter-spacing: var(--mobile-tagline-letter-spacing);
+  }
+
+  .taglines-container {
+    margin-bottom: var(--mobile-client-margin-bottom);
+  }
+
+  .working-with-us-container {
+    margin-bottom: var(--mobile-client-margin-bottom);
+  }
+
+  .project-process-container {
+    margin-bottom: var(--mobile-client-margin-bottom);
+  }
+
+  .testimonials-container {
+    margin-bottom: var(--mobile-client-margin-bottom);
+  }
+
+  .list-container{
+    width: 100%;
+    line-height: 140%;
+  }
+
+  .list-kid {
+    padding: 2vw 2vw;
+  }
+
+  .clients-list-container {
+    margin-bottom: var(--mobile-client-margin-bottom);    
+  }
+
+  .list-text {
+    font-size: var(--mobile-list-item);
+  }
+}
